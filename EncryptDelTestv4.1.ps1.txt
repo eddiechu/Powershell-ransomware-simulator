@@ -44,7 +44,7 @@ Function DecryptFile($File){
 Function Banner{
   "<html>" | Out-File -FilePath popup.html
   "<head>" | Out-File -FilePath popup.html -Append
-  "<title>EncryptDelTestv4.1</title>" | Out-File -FilePath popup.html -Append
+  "<title>Powershell-ransomware-simulatorv4.1</title>" | Out-File -FilePath popup.html -Append
   "<body bgcolor=red>" | Out-File -FilePath popup.html -Append
   "<font size=+10 color=white><b>[EncryptDelTestv4.1]</b></font><br><br><br><br>" | Out-File -FilePath popup.html -Append
   "<font size=+10 color=white>Your anti-virus software <u>CANNOT</u> detect this test</font><br><br>" | Out-File -FilePath popup.html -Append
@@ -71,14 +71,14 @@ Add-Type -AssemblyName System.Drawing
 
 $objForm = New-Object System.Windows.Forms.Form
 $objForm.AutoSize = $True
-$objForm.Text = "[Encrypt Delete Test v4.1]"
+$objForm.Text = "[Powershell ransomware simulator v4.1]"
 $objForm.StartPosition = "CenterScreen"
 
 $objLabel = New-Object System.Windows.Forms.label
-$objLabel.Text = "[Encrypt Delete Test v4.1]
+$objLabel.Text = "[Powershell ransomware simulator v4.1]
 Simulate ransomware encryption operation
 By Eddie Chu eddiechu.android@gmail.com
-Please download the original and latest version from https://github.com/eddiechu/Encrypt-Delete-Test
+Please download the original and latest version from https://github.com/eddiechu/Powershell-ransomware-simulator
 Version v4.1 (11/Sep/2022)`r`n
 This tool encrypts - overwrites - renames the file under selected folder and it's subfolder(s))`r`n
 [Caution]
