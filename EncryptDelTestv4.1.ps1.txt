@@ -121,7 +121,7 @@ $button_click=
     }
   }
   Else{
-    [System.Windows.Forms.MessageBox]::Show('Please select option',"[Encrypt Delete Test v4.1]",[System.Windows.Forms.MessageBoxButtons]::OK,[System.Windows.Forms.MessageBoxIcon]::Warning)
+    [System.Windows.Forms.MessageBox]::Show('Please select option',"[Powershell ransomware simulator v4.1]",[System.Windows.Forms.MessageBoxButtons]::OK,[System.Windows.Forms.MessageBoxIcon]::Warning)
   }
 }  
 
