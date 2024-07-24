@@ -27,21 +27,18 @@ Hope there is no more ransomware incident!  Please share this blog with friends 
 
 # This tool
 
+Please copy and paste the PowerShell code to terminal, this way can bypass antivirus signature and simulate the real ransomware behaviour
+
+
 
 ![alt text](https://raw.githubusercontent.com/eddiechu/Powershell-ransomware-simulator/main/Image/powershell1.gif)
 
-
-
-please copy and paste the PowerShell code to terminal, this way can bypass antivirus signature and simulate the real ransomware behaviour
-
-This tool encrypts - overwrite - rename the files in the selected (local or network) folder and subfolder, you may create a temporary folder like C:\Encrypt-Delete-Test\, save this tool to there, then run it.  Be safe.
+This tool encrypts - overwrite - rename the files in the selected (local or network) folder and subfolder, you may create a temporary folder like C:\Ransomware-Simulator\, save this tool to there, then run it.  Be safe.
 
 It tests if your endpoint can detect when encryption is happening (like base on the files change pattern), but NOT to test if your endpoint can prevent it from start.
 
 It is great if you can share your test result with me for my record.
 
-
-Archived https://github.com/eddiechu-zz/Encrypt-Delete-Test
 
 
 
