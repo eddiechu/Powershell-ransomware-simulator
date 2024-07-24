@@ -1,7 +1,4 @@
-:pushpin: :pushpin: :pushpin: Since most of binary files are being blocked by antivirus signature from time to time, please copy and paste the PowerShell code to terminal, this way can bypass antivirus signature and simulate the real ransomware behaviour :pushpin: :pushpin: :pushpin: 
-
-![alt text](https://raw.githubusercontent.com/eddiechu/Powershell-ransomware-simulator/main/Image/powershell1.gif)
-
+:pushpin: :pushpin: :pushpin: Replicated from https://github.com/eddiechu/Encrypt-Delete-Test :pushpin: :pushpin: :pushpin: 
 
 # Really can protect from ransomware encryption?
 
@@ -31,7 +28,8 @@ Hope there is no more ransomware incident!  Please share this blog with friends 
 # This tool
 
 
-![alt text](https://raw.githubusercontent.com/eddiechu/Encrypt-Delete-Test/main/Image/EncryptDelTestv4.1b.gif)
+![alt text](https://raw.githubusercontent.com/eddiechu/Powershell-ransomware-simulator/main/Image/powershell1.gif)
+
 
 
 please copy and paste the PowerShell code to terminal, this way can bypass antivirus signature and simulate the real ransomware behaviour
